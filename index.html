@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Abdelrahman Atef - UI Developer | nt-end Web Developer</title>
+    <title>Abdelrahman Atef - Front-end Web Developer | UI Developer</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,6 +16,7 @@
     />
     <link rel="stylesheet" href="css/icofont.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Nunito:300,400,600,700&amp;display=swap"
@@ -22,7 +24,7 @@
   </head>
   <body>
     <!-- Start Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#home">Abdel Rahman</a>
         <button
@@ -37,29 +39,34 @@
         </button>
         <div class="collapse navbar-collapse" id="navContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home" data-value="home">Home</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-me" data-value="about-me"
+              <a class="nav-link" href="#about-me"
                 >About Me</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services" data-value="services"
+              <a class="nav-link" href="#resume"
+                >My Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"
                 >Services</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#client" data-value="client">Clients</a>
+              <a class="nav-link" href="#client">Clients</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio" data-value="portfolio"
+              <a class="nav-link" href="#portfolio"
                 >Portfolio</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact" data-value="contact"
+              <a class="nav-link" href="#contact"
                 >Contact Me</a
               >
             </li>
@@ -68,8 +75,8 @@
       </div>
     </nav>
     <!-- End Navigation Bar-->
-    <!-- Start Header-->
-    <header id="home" data-nav="home">
+    <!-- Start Header -->
+    <section class="header" id="home">
       <div class="container">
         <div class="content">
           <span>Welcome</span>
@@ -80,37 +87,36 @@
           </p>
         </div>
       </div>
-    </header>
+    </section>
     <!-- End Header-->
     <!-- Start Section About Me-->
-    <section class="about-me" id="about-me" data-nav="about-me">
+    <section class="about-me fixed-style" id="about-me">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4 col-md-6">
             <div class="img">
               <img
-                class="img-fluid mx-auto d-block img-thumbnail"
-                src="images/me.jpg"
+                class="img-fluid mx-auto d-block w-100 h-100"
+                src="images/me-2.jpg"
                 alt="Abdel-Rahman"
               />
             </div>
           </div>
           <div class="col-12 col-lg-8 col-md-6">
             <div class="about-me-content">
-              <h2><span>About</span> Me</h2>
-              <h3>Hello! <span>I'M Abdel Rahman Atef.</span></h3>
+              <!-- <h2><span>About</span> Me</h2> -->
+              <h3><span>Hello It's Me</span>Abdel Rahman Atef</h3>
+              <h4>I'm a <span>Front-end Web Developer</span></h4>
               <p>
-                My Name Abdel-Rahman Atef, I'm 25 years old, I Studying Computer
+                My Name Abdel-Rahman Atef, I'm 26 years old, I Studying Computer
                 Science, I Working as a Front-end Web Developer.
               </p>
               <p>
-                I Have been Working On Microcode Company, and Now I working as
-                UI Developer | Front-end Web Developer as A freelancer On Khamsat and
-                Freelancer website.
+                I am a qualified and professional Front end web developer <br>with a second year of experience in dashboard and website design and Strong creativity and analysis. <br>Team player with an eye for detail.
               </p>
               <p>
-                I have <b>Skills</b> as: HTML/5 - CSS/3 - JavaScript - JQuery -
-                Bootstrap 3/4 - PugJs - Sass - GulpJs - Git/Github - Json.
+                <!-- I have <b>Skills</b> as: HTML/5 - CSS/3 - JavaScript - JQuery -
+                Bootstrap 3/4 - PugJs - Sass - GulpJs - Git/Github - Json. -->
               </p>
             </div>
             <ul class="mb-0 about-social list-inline mt-4">
@@ -142,8 +148,101 @@
       </div>
     </section>
     <!-- End Section About Me-->
+    <!-- Start Section My Resume -->
+    <section class="resume fixed-style" id="resume">
+      <div class="container">
+        <div class="text-center">
+          <h2>My <span>Resume</span></h2>
+          <!-- <p class="text">These are Some Of My Resume.</p> -->
+        </div>
+        <div class="row">
+          <!-- Eduction And Experience -->
+          <div class="info col-12 col-md-8 col-lg-8">
+            <div class="mt-3 mb-5">
+              <h3 class="mb-4">Education</h3>
+              <div class="detail-work box-shadow" data-aos="fade-up">
+                <h6 class="mb-2">Beni-Suef University</h6>
+                <span class="d-block text-muted">Bachelor's degree, Computer Science</span>
+                <span class="text-muted">2015 - 2020</span>
+              </div>
+            </div>
+            <div class="mt-3">
+              <h3 class="mb-4">Experience</h3>
+              <div class="row">
+                <div class="col-12">
+                  <div class="detail-work box-shadow" data-aos="fade-up">
+                    <h6 class="mb-2">UI Developer</h6>
+                    <span class="d-block text-muted">Microcode Corporation · Remote</span>
+                    <span class="text-muted">Apr 2018 - Jan 2019</span>
+                    <p class="desc text-muted mb-0">
+                      I created a Design website and Convert To Code and
+                      Effectively managed projects from start to finish and
+                      Maintained an eagerness to add to my knowledge and skills.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="detail-work box-shadow" data-aos="fade-up">
+                    <h6 class="mb-2">UI Developer</h6>
+                    <span class="d-block text-muted">Khamsat.com | خمسات · Freelance</span>
+                    <span class="text-muted">May 2018 - May 2019</span>
+                    <p class="desc text-muted mb-0">
+                      Build confidence among me and my Clients, Worked with a high level of confidence and ambition,  Create Landing Pages and Mobile App Design and Create, Edit Websites, and Convert PSD to clean code.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="detail-work box-shadow" data-aos="fade-up">
+                    <h6 class="mb-2">CEU</h6>
+                    <span class="d-block text-muted">Etisalat Egypt · Full-time · On-site</span>
+                    <span class="text-muted">Oct 2022 - Present</span>
+                    <p class="desc text-muted mb-0">Working on Handled Customers and Solving Their problems.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Skills -->
+          <div class="skills col-12 col-md-4 col-lg-4">
+            <h3 class="mb-4">Skills</h3>
+            <ul class="m-0 p-0 list-unstyled">
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>HTML/5</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>CSS/3</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>BootStrap</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>JavaScript</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>SASS</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>Angular</span>
+              </li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>GIT</span></li>
+              <li>
+                <span >GITHUB</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>JSON</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>AJAX</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>JQuery</span></li>
+              <li class="box-shadow" data-aos="zoom-in">
+                <span>PugJs</span></li>
+                <li class="box-shadow" data-aos="zoom-in">
+                  <span>GulpJs</span></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Section My Resume-->
     <!-- Start Section My Services-->
-    <section class="services" id="services" data-nav="services">
+    <section class="services fixed-style" id="services">
       <div class="container">
         <div class="text-center">
           <h2>My <span>Services</span></h2>
@@ -151,21 +250,20 @@
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="text-center services-boxes rounded mt-4">
+            <div class="text-center services-boxes box-shadow rounded mt-4" data-aos="fade-up" data-aos-delay="100">
               <div class="services-boxes-icon">
                 <i class="icofont-computer icofont-3x"></i>
               </div>
               <div class="mt-3">
-                <h5 class="mb-0">Web Design</h5>
+                <h5 class="mb-0">Create Dashboard</h5>
                 <p class="text-muted mt-3">
-                  I'm able to Design a Responsive Website By My Skills HTML/5 -
-                  CSS/3 - JS - jQuery - Bootstrap 4 and Others.
+                  I'm able to Create Creative Dashboard and make it interactive and will Full.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="text-center services-boxes rounded mt-4">
+            <div class="text-center services-boxes box-shadow rounded mt-4" data-aos="fade-up" data-aos-delay="200">
               <div class="services-boxes-icon">
                 <i class="icofont-interface icofont-3x"></i>
               </div>
@@ -179,7 +277,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="text-center services-boxes rounded mt-4">
+            <div class="text-center services-boxes box-shadow rounded mt-4" data-aos="fade-up" data-aos-delay="300">
               <div class="services-boxes-icon">
                 <i class="icofont-settings-alt icofont-3x"></i>
               </div>
@@ -193,21 +291,20 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="text-center services-boxes rounded mt-4">
+            <div class="text-center services-boxes box-shadow rounded mt-4" data-aos="fade-up" data-aos-delay="400">
               <div class="services-boxes-icon">
-                <i class="icofont-dashboard icofont-3x"></i>
+                <i class="icofont-code icofont-3x"></i>
               </div>
               <div class="mt-3">
-                <h5 class="mb-0">Make Your Website Runs Faster</h5>
+                <h5 class="mb-0">Single Page Application</h5>
                 <p class="text-muted mt-3">
-                  I Can Speed Up Your Website and Make It Upload and Work
-                  Faster..
+                  Create A <b>SPA</b> By Angular And I can use With it Ajax And JSON.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="text-center services-boxes rounded mt-4">
+            <div class="text-center services-boxes box-shadow rounded mt-4" data-aos="fade-up" data-aos-delay="500">
               <div class="services-boxes-icon">
                 <i class="icofont-optic icofont-3x"></i>
               </div>
@@ -221,7 +318,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="text-center services-boxes rounded mt-4">
+            <div class="text-center services-boxes box-shadow rounded mt-4" data-aos="fade-up" data-aos-delay="600">
               <div class="services-boxes-icon">
                 <i class="icofont-responsive icofont-3x"></i>
               </div>
@@ -238,7 +335,7 @@
     </section>
     <!-- End Section My Services-->
     <!-- Start Section My Clients-->
-    <section class="my-clients" id="client" data-nav="client">
+    <section class="my-clients fixed-style" id="client">
       <div class="container">
         <div class="text-center">
           <h2>My <span>Clients</span></h2>
@@ -331,15 +428,15 @@
     </section>
     <!-- End Section My Clients-->
     <!-- Start Section My Portfolio-->
-    <section class="portfolio" id="portfolio" data-nav="portfolio">
+    <section class="portfolio fixed-style" id="portfolio">
       <div class="container">
         <div class="mb-4 text-center">
           <h2>My <span>Works</span></h2>
           <p class="text">Check Out Some Of My Previous Works.</p>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-4 col-md-6">
-            <a href="https://sasec.netlify.com/en/index.html" target="_blank">
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="100">
+            <a href="https://sasec.netlify.com/en/index.html" target="_blank" >
               <div class="work-item">
                 <div class="work-img">
                   <img
@@ -351,31 +448,14 @@
                 <div class="work-details">
                   <div>
                     <h4 class="mb-0">Sasec</h4>
+                    <span>Website Without SPA</span>
                   </div>
                 </div>
               </div></a
             >
           </div>
-          <div class="col-12 col-lg-4 col-md-6">
-            <a href="https://ramzelkhatear.netlify.app/" target="_blank">
-              <div class="work-item">
-                <div class="work-img">
-                  <img
-                    class="img-fluid mx-auto d-block rounded"
-                    src="images/3.jpg"
-                    alt="Wixcard"
-                  />
-                </div>
-                <div class="work-details">
-                  <div>
-                    <h4 class="mb-0">Ramz El-Khtear</h4>
-                  </div>
-                </div>
-              </div></a
-            >
-          </div>
-          <div class="col-12 col-lg-4 col-md-6">
-            <a href="https://wixcard.netlify.com/" target="_blank">
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="200">
+            <a href="https://wixcard.netlify.com/" target="_blank" >
               <div class="work-item">
                 <div class="work-img">
                   <img
@@ -387,13 +467,14 @@
                 <div class="work-details">
                   <div>
                     <h4 class="mb-0">Wixcard</h4>
+                    <span>Landing Page</span>
                   </div>
                 </div>
               </div></a
             >
           </div>
-          <div class="col-12 col-lg-4 col-md-6">
-            <a href="https://dredcv.netlify.com/" target="_blank">
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="300">
+            <a href="https://dredcv.netlify.com/" target="_blank" >
               <div class="work-item">
                 <div class="work-img">
                   <img
@@ -405,13 +486,15 @@
                 <div class="work-details">
                   <div>
                     <h4 class="mb-0">Resume</h4>
+                    <span>Landing Page</span>
+
                   </div>
                 </div>
               </div></a
             >
           </div>
-          <div class="col-12 col-lg-4 col-md-6">
-            <a href="https://elquran-elkareem.netlify.com/" target="_blank">
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="400">
+            <a href="https://elquran-elkareem.netlify.com/" target="_blank" >
               <div class="work-item">
                 <div class="work-img">
                   <img
@@ -423,13 +506,14 @@
                 <div class="work-details">
                   <div>
                     <h4 class="mb-0">Quran</h4>
+                    <span>Website Without SPA</span>
                   </div>
                 </div>
               </div></a
             >
           </div>
-          <div class="col-12 col-lg-4 col-md-6">
-            <a href="https://restaurant-online.netlify.app/" target="_blank">
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="500">
+            <a href="https://restaurant-online.netlify.app/" target="_blank" >
               <div class="work-item">
                 <div class="work-img">
                   <img
@@ -441,17 +525,55 @@
                 <div class="work-details">
                   <div>
                     <h4 class="mb-0">Restaurant</h4>
+                    <span>Website Not SPA</span>
                   </div>
                 </div>
               </div></a
             >
+          </div>
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="600">
+            <a href="https://movies-app345.netlify.app/" target="_blank" >
+              <div class="work-item">
+                <div class="work-img">
+                  <img
+                    class="img-fluid mx-auto d-block rounded"
+                    src="images/movie.jpg"
+                    alt="movie"
+                  />
+                </div>
+                <div class="work-details">
+                  <div>
+                    <h4 class="mb-0">Movies Application</h4>
+                    <span>SPA By Angular</span>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="col-12 col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="700">
+            <a href="https://petyourpet.netlify.app/" target="_blank" >
+              <div class="work-item">
+                <div class="work-img">
+                  <img
+                    class="img-fluid mx-auto d-block rounded"
+                    src="images/pet.png"
+                    alt="PET Your PET"
+                  />
+                </div>
+                <div class="work-details">
+                  <div class="details">
+                    <h4 class="mb-0">PET YOUR PET</h4>
+                    <span>SPA By Angular</span>
+                  </div>
+                </div>
+              </div></a>
           </div>
         </div>
       </div>
     </section>
     <!-- End Section My Portfolio-->
     <!-- Start Section Contact Me-->
-    <section class="contact-me" id="contact" data-nav="contact">
+    <section class="contact-me" id="contact">
       <div class="container">
         <div class="text-center">
           <h2><span>Contact</span> Me</h2>
@@ -514,7 +636,7 @@
               </ul>
             </div>
             <p class="text-muted mb-0">
-              2021 &copy; Abdel-Rahman, Design By
+              2023 &copy; Abdel-Rahman, Design By
               <a
                 class="text-muted"
                 href="https://www.linkedin.com/in/abdelrhman-25718297/"
@@ -531,6 +653,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script>AOS.init();</script>
   </body>
 </html>
